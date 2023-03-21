@@ -1,0 +1,11 @@
+kafka:
+  servers:
+    - localhost:9092
+  group: accountConsumer
+
+db:
+  driver: "postgres"
+  host: "localhost:5432"
+  username: ts
+  password: ts
+  database: postgres
